@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = -0.03f;
+    [SerializeField] float moveSpeed;
     [SerializeField] GameObject eagle;
 
     public void SetPlayer(GameObject e) {  eagle = e; }

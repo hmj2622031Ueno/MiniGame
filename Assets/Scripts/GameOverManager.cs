@@ -20,5 +20,9 @@ public class GameOverManager : MonoBehaviour
         {
             SceneManager.LoadScene("GameScene");
         }
+        else if(Keyboard.current.eKey.isPressed)
+        {
+            SceneManager.LoadScene("TitleScene");
+        }
     }
 }

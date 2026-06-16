@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject timerText;
-    [SerializeField] float time = 10.0f;
+    [SerializeField] float time = 15.0f;
     [SerializeField] GameObject generator;
     AudioSource aud;
     [SerializeField] AudioClip playSE;
@@ -28,4 +28,5 @@ public class GameManager : MonoBehaviour
         }
         timerText.GetComponent<TextMeshProUGUI>().text = time.ToString("F1");
     }
+
 }

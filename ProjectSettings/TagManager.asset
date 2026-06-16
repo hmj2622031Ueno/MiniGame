@@ -6,6 +6,7 @@ TagManager:
   tags:
   - eagle
   - ball
+  - clock
   layers:
   - Default
   - TransparentFX
